@@ -13,4 +13,7 @@ $(function(){
         $("#box07").hide();   
     })
 
+    $("#button02").on("click",function(){
+        $(".box back-blue").hide
+    })
 })
