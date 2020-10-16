@@ -14,6 +14,6 @@ $(function(){
     })
 
     $("#button02").on("click",function(){
-        $(".box back-blue").hide
+        $(".box back-blue").hide();
     })
 })
