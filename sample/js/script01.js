@@ -22,6 +22,6 @@ $(function(){
     })
 
     $("button04").on("click",function(){
-        $(".boxes").show();
+        $(".box").show();
     })
 })
