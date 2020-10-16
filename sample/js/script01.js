@@ -2,28 +2,28 @@
 $(function(){
 
     $("#button01").on("click",function(){
-        $("#box01").hide();
+        $("#box01").slideUp();
     })
     
     $("#button01").on("click",function(){
-        $("#box04").hide();
+        $("#box04").slideUp();
     })
 
     $("#button01").on("click",function(){ 
-        $("#box07").hide();   
+        $("#box07").slideUp();   
     })
 
 
 
     $("#button02").on("click",function(){
-        $(".back-blue").hide();
+        $(".back-blue").slideUp();
     })
 
 
 
 
     $("#button03").on("click",function(){
-        $("#box03,#box07").hide();
+        $("#box03,#box07").slideUp();
     })
 
 
