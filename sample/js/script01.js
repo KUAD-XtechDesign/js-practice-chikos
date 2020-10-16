@@ -1,15 +1,16 @@
+
 $(function(){
-   
+
     $("#button01").on("click",function(){
-        $("#box01").hide();
+        $("#box01").Toggle();
     })
     
     $("#button01").on("click",function(){
-        $("#box04").hide();
+        $("#box04").Toggle();
     })
-    
+
     $("#button01").on("click",function(){ 
-        $("#box07").hide();   
+        $("#box07").Toggle();   
     })
 
 })
