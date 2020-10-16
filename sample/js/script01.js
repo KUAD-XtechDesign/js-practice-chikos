@@ -16,4 +16,12 @@ $(function(){
     $("#button02").on("click",function(){
         $(".box back-blue").hide();
     })
+
+    $("button03").on("click",function(){
+        $("#box03").hide();
+    })
+
+    $("button03").on("click",function(){
+        $("#box07").hide();
+    })
 })
