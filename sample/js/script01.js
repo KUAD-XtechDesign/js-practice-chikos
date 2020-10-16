@@ -14,14 +14,14 @@ $(function(){
     })
 
     $("#button02").on("click",function(){
-        $(".box back-blue").hide();
+        $(".back-blue").hide();
     })
 
     $("button03").on("click",function(){
-        $("#box03").hide();
+        $("#box03,#box07").hide();
     })
 
-    $("button03").on("click",function(){
-        $("#box07").hide();
+    $("button04").on("click",function(){
+        $(".boxes").show();
     })
 })
